@@ -1,0 +1,280 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html{
+
+    font-size: 62.5%;
+    
+   
+
+}
+
+:root {
+    --charcoal-grey: #2f3336;
+    --white: #ffffff;
+    --very-light-pink: #d3d3d3;
+    --dark-sand: #a98d5d;
+}
+
+
+
+
+
+/**/
+
+.grid{
+    display: grid;
+    grid-template-areas: 
+    "header image nav"
+    "cont image nav"
+    "cont desc nav";
+    
+    grid-template-columns: 2fr 1fr auto;
+    grid-template-rows: 5rem 2fr auto;
+    height: 90rem;
+
+}
+
+header{
+    grid-area: header;
+    display: flex;
+    flex-direction: row;
+    width: 95.2rem;
+    height: 8.8rem;
+    margin: 0 0 106px;
+    padding: 3.6rem 8.8rem;
+    
+}
+
+.header_ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.header_ul li a{
+    text-decoration: none;
+    width: 4.4rem;
+    height: 1.6rem;
+    margin: 0 3.2rem 0 0;
+    font-family: Aeonik;
+    font-size: 1.6rem;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    color: var(--charcoal-grey);
+}
+
+.Real-Estate {
+    width: 8.2rem;
+    height: 1.6rem;
+    margin: 0 39rem 0 0;
+    font-family: Aeonik;
+    font-size: 1.6rem;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    color: var(--charcoal-grey);
+  }
+
+
+.article{
+    grid-area: cont;
+    padding-top: 10rem;
+    padding-left: 8.8rem;
+    
+}
+
+.article h3{
+    width: 14.5rem;
+    height: 3.2rem;
+    margin: 0 46rem 0.8rem 0;
+    font-family: Aeonik;
+    font-size: 1.8rem;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.78;
+    letter-spacing: normal;
+    color: var(--charcoal-grey);
+  }
+
+  .article h1{
+    width: 59rem;
+    height: 8.8rem;
+    margin: 0.8rem 1.5rem 0.8rem 0;
+    font-family: LustSlim;
+    font-size: 8.8rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--dark-sand);
+  }
+
+  .article h2{
+    width: 41.4rem;
+    height: 4.8rem;
+    margin: 0.8rem 19.1rem 2.4rem 0;
+    font-family: Aeonik;
+    font-size: 3.2rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: var(--charcoal-grey);
+  }
+
+  .article p{
+    width: 60.5rem;
+    height: 11.2rem;
+    margin: 2.4rem 0 8.8rem;
+    font-family: Aeonik;
+    font-size: 1.6rem;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+    color: var(--charcoal-grey);
+  }
+
+  .article p span{
+    color: var(--dark-sand);
+  }
+
+  .article p+h2{
+    color: var(--dark-sand);
+  }
+
+  .article button{
+    width: 13.5rem;
+    height: 3.6rem;
+    margin: 3.2rem 47rem 0 0;
+    padding: 1rem 4rem;
+    border: solid 2px var(--dark-sand);
+    background: transparent;
+    color: var(--dark-sand);
+  }
+
+
+ .aside{
+     grid-area: image;
+     
+     
+ }
+
+ .aside img{
+    width: 40rem;
+    height: 60.2rem;
+ }
+.aside_box{
+    grid-area: desc;
+    width: 40rem;
+    height: 29.8rem;
+    margin: 51.4rem 0 0;
+    padding: 3.7rem 3rem 3.8rem;
+    background-color: var(--charcoal-grey);
+    
+}
+
+.aside_box span{
+    width: 12.5rem;
+  height: 2.4rem;
+  margin: 0 20.1rem 2.4rem 0;
+  font-family: Aeonik;
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  color: var(--white);
+}
+
+.aside_box hr{
+    width: 4.4rem;
+  height: 0.3rem;
+  margin: 2.4rem 28.2rem 3.2rem 0;
+  background-color: var(--white);
+
+}
+
+.aside_box p{
+    width: 32.6rem;
+  height: 14rem;
+  margin: 3.2rem 0 0;
+  font-family: Aeonik;
+  font-size: 1.6rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.75;
+  letter-spacing: normal;
+  color: var(--white);
+}
+
+
+
+nav{
+    grid-area: nav;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 5rem;
+    
+    
+}
+
+nav i{
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+}
+
+.line{
+    border: 1px black solid;
+    width: 1px;
+    height: 16.7rem;
+    margin: 3rem 0;
+}
+
+nav ul{
+    list-style: none;
+    transform: rotate(90deg);
+    display: flex;
+    flex-direction: row;
+    margin: 8rem;
+}
+
+nav ul li a{
+    text-decoration: none;
+    width: 3.8rem;
+    height: 1.2rem;
+    margin: 4.5rem 0.5rem 6.7rem;
+    font-family: Aeonik;
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    color: var(--charcoal-grey);
+    
+    
+
+
+}
+
+
+
+
