@@ -370,7 +370,7 @@ nav ul li a{
 
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
-
+  padding-bottom: 3.3rem;
 }
 
 .section_3_image{
@@ -419,7 +419,7 @@ nav ul li a{
 
   width: auto;
   height: 34.3rem;
-  margin: 3.2rem 0 0 0;
+  margin: 3.2rem 0;
   font-family: Aeonik;
   font-size: 1.6rem;
   font-weight: normal;
@@ -430,3 +430,175 @@ nav ul li a{
   color: var(--charcoal-grey);
 
 }
+
+/**Here begins section 4*/
+
+.section_4{
+
+  width: 126.4rem;
+  height: 11.2rem;
+  padding: 3.2rem 3.7rem;
+  background-color: var(--dark-sand);
+  display: flex;
+  margin-left: 8.8rem;
+
+}
+
+.section_4 h1{
+
+    width: fit-content;
+    height: 40px;
+    font-family: LustSlim;
+    font-size: 40px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    color: var(--white);
+    margin-right: 5rem;
+
+}
+
+.section_4 p{
+
+  width: 600px;
+  height: 48px;
+  font-family: Aeonik;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: var(--white);
+  margin-right: 5rem;
+
+}
+
+.section_4-line{
+
+  border: 2px white solid;
+  height: 4.8rem;
+  margin-right: 5rem;
+}
+
+/**Here begins section 5*/
+
+.section_5{
+
+
+
+}
+
+
+
+
+
+/**Here is the footer**/
+.footer {
+  width: 100vw;
+  height: fit-content;
+  padding: 8.8rem;
+  background-color: var(--charcoal-grey);
+  display: flex;
+  flex-flow: row wrap;
+}
+
+
+.footer_div-1{
+  display: flex;
+  flex-direction: column;
+  padding-right:56rem;
+}
+
+.footer_div-2{
+  display: flex;
+  direction: row;
+  justify-content: flex-end;
+  width: fit-content;
+}
+
+.footer_div-2 ul{
+  list-style: none;
+}
+
+.footer_div-2 ul li a{
+  text-decoration: none;
+}
+
+.footer_div-1 h1{
+  
+  width: fit-content;
+  height: 2.4rem;
+  margin: 0 0.4rem 0.2rem 0;
+  font-family: Aeonik;
+  font-size: 2.4rem;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  color: var(--white);
+  
+  
+}
+
+.footer_div-1 p{
+
+  width: 16.2rem;
+  height: 12.8rem;
+  margin: 0.2rem 0 0;
+  font-family: Aeonik;
+  font-size: 1.6rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  color: var(--white);
+
+}
+
+
+
+.footer_div-2 ul li{
+
+  width: 10rem;
+  height: 2.4rem;
+  margin: 0 8.8rem 4rem 0;
+  font-family: Aeonik;
+  font-size: 1.8rem;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: var(--white);
+
+}
+
+.last-list{
+
+  width: 12rem;
+  margin-right: none;
+}
+
+.footer_div-2 ul li a{
+
+  width: 44rem;
+  height: 1.6rem;
+  font-family: Aeonik;
+  font-size: 1.6rem;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  color: var(--white);
+
+}
+
+
+
+
