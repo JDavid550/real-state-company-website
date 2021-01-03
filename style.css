@@ -487,12 +487,150 @@ nav ul li a{
 
 .section_5{
 
+  display: grid;
+  grid-template-areas: 
+  "image description";
+  padding-left: 8.8rem;
+  padding-top: 8.9rem;
+  padding-right: 5rem;
 
+}
 
+.section_5_img{
+  grid-area: image;
 }
 
 
 
+.section_5_img img{
+
+  height: 59.1rem;
+
+}
+
+.section_5_description{
+
+  grid-area: description;
+  padding-left: 5rem;
+
+}
+
+.section_5_description span{
+
+  width: 16.7rem;
+  height: 2.4rem;
+  margin: 0 47.1rem 2.4rem 0;
+  font-family: Aeonik;
+  font-size: 1.4rem;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: var(--dark-sand); 
+}
+
+.section_5_description hr{
+
+  width: 4.4rem;
+  height: 3px;
+  margin: 2.4rem 59.4rem 3.2rem 0;
+  background-color: var(--dark-sand);
+
+
+}
+
+.section_5_description p{
+  width: 63.8rem;
+  padding-right: 8rem;
+  font-family: Aeonik;
+  font-size: 1.6rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: var(--charcoal-grey);
+}
+
+.section_5_description button{
+
+  width: 13.6rem;
+  height: 3.6rem;
+  margin: 6.5rem 50.2rem 0 0;
+  padding: 1.0rem 4.0rem;
+  border: solid 2px var(--dark-sand);
+  background-color: transparent;
+  color: var(--dark-sand);
+
+}
+
+/**Here begins the section 6*/
+
+.section_6{
+
+  display: grid;
+  grid-template-areas: 
+  "description image";
+  padding-left: 8.8rem;
+  padding-right:5rem;
+  padding-top: 8.9rem;
+  
+
+}
+
+.section_6_img{
+  grid-area: image;
+  width: 72rem;
+}
+
+
+
+.section_6_description{
+
+  grid-area: description;
+  
+
+}
+
+.section_6_description span{
+
+  width: 16.7rem;
+  height: 2.4rem;
+  margin: 0 34rem 24rem 0;
+  font-family: Aeonik;
+  font-size: 1.4rem;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: var(--dark-sand);
+
+}
+
+.section_6_description hr{
+
+  width: 4.4rem;
+  height: 3px;
+  margin: 2.4rem 46.3rem 3.2rem 0;
+  background-color: var(--dark-sand);
+
+}
+
+.section_6_description p{
+
+  width: 50.7rem;
+  font-family: Aeonik;
+  font-size: 1.6rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: var(--charcoal-grey);
+
+}
 
 
 /**Here is the footer**/
