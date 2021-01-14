@@ -1,0 +1,21 @@
+@media (max-width: 500px){
+
+    .grid{
+        display: none;
+        grid-template-areas: 
+        "header"
+        "cont"
+        "image"
+        "desc";
+        grid-template-columns: 1fr;
+        height: 90rem;
+    
+    }
+
+    header{
+        grid-area: header;
+        
+    }
+
+
+}

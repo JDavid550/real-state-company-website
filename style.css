@@ -22,8 +22,6 @@ html{
 
 
 
-
-
 /**/
 
 .grid{
@@ -108,11 +106,11 @@ header{
   }
 
   .article h1{
-    width: 59rem;
+    
     height: 8.8rem;
-    margin: 0.8rem 1.5rem 0.8rem 0;
-    font-family: LustSlim;
+    margin: 0.8rem 1.5rem 2rem 0;
     font-size: 8.8rem;
+    font-family: Aeonik;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -125,7 +123,6 @@ header{
     width: 41.4rem;
     height: 4.8rem;
     margin: 0.8rem 19.1rem 2.4rem 0;
-    font-family: Aeonik;
     font-size: 3.2rem;
     font-weight: normal;
     font-stretch: normal;
@@ -581,7 +578,6 @@ nav ul li a{
 
 .section_6_img{
   grid-area: image;
-  width: 72rem;
 }
 
 
@@ -637,7 +633,7 @@ nav ul li a{
 .section_7{
   display: grid;
   grid-template-areas:
-  "images main";
+  "images maini";
   padding-left: 8.8rem;
   padding-right:5rem;
   padding-top: 8.9rem;
@@ -646,7 +642,7 @@ nav ul li a{
 }
 
 .section_7__div--1{
-  grid-area: main;
+  grid-area: maini;
   
 }
 
