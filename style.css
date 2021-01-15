@@ -928,6 +928,17 @@ form button{
 
 }
 
+.credits{
+  display: flex;
+  justify-content: center;
+  height: 3rem;
+  color: var(--charcoal-grey);
+  align-items: center;
+  font-size: 1.4rem;
+}
 
+.name{
+  color: var(--dark-sand);
+}
 
 
