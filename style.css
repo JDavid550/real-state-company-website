@@ -31,7 +31,7 @@ html{
     "cont image nav"
     "cont desc nav";
     
-    grid-template-columns: 2fr 1fr auto;
+    grid-template-columns: 80rem 43rem 5rem;
     grid-template-rows: 5rem 2fr auto;
     height: 90rem;
 
@@ -41,10 +41,9 @@ header{
     grid-area: header;
     display: flex;
     flex-direction: row;
-    width: 95.2rem;
     height: 8.8rem;
     margin: 0 0 106px;
-    padding: 3.6rem 8.8rem;
+    padding: 3.6rem 5rem 3.6rem 8.8rem;
     
 }
 
@@ -70,9 +69,9 @@ header{
 }
 
 .Real-Estate {
-    width: 8.2rem;
+    
     height: 1.6rem;
-    margin: 0 39rem 0 0;
+    margin: 0 25rem 0 0;
     font-family: Aeonik;
     font-size: 1.6rem;
     font-weight: 500;
@@ -136,13 +135,10 @@ header{
     width: 60.5rem;
     height: 11.2rem;
     margin: 2.4rem 0 8.8rem;
-    font-family: Aeonik;
+    padding-right: 5rem;
     font-size: 1.6rem;
     font-weight: 500;
-    font-stretch: normal;
-    font-style: normal;
     line-height: 1.75;
-    letter-spacing: normal;
     color: var(--charcoal-grey);
   }
 
@@ -172,12 +168,12 @@ header{
  }
 
  .aside img{
-    width: 40rem;
+    width: 43rem;
     height: 60.2rem;
  }
 .aside_box{
     grid-area: desc;
-    width: 40rem;
+    width: 43rem;
     height: 29.8rem;
     margin: 51.4rem 0 0;
     padding: 3.7rem 3rem 3.8rem;
@@ -186,9 +182,9 @@ header{
 }
 
 .aside_box span{
-    width: 12.5rem;
+  width: 12.5rem;
   height: 2.4rem;
-  margin: 0 20.1rem 2.4rem 0;
+  margin: 0 10rem 2.4rem 0;
   font-family: Aeonik;
   font-size: 1.2rem;
   font-weight: 500;
@@ -200,22 +196,17 @@ header{
 }
 
 .aside_box hr{
-    width: 4.4rem;
+  width: 4.4rem;
   height: 0.3rem;
-  margin: 2.4rem 28.2rem 3.2rem 0;
+  margin: 2.4rem 28.2rem 2.5rem 0;
   background-color: var(--white);
 
 }
 
 .aside_box p{
-    width: 32.6rem;
+  width: inherit;
   height: 14rem;
-  margin: 3.2rem 0 0;
-  font-family: Aeonik;
   font-size: 1.6rem;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.75;
   letter-spacing: normal;
   color: var(--white);
@@ -250,7 +241,9 @@ nav ul{
     transform: rotate(90deg);
     display: flex;
     flex-direction: row;
-    margin: 8rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    
 }
 
 nav ul li a{
@@ -280,7 +273,7 @@ nav ul li a{
   grid-template-areas:
   "image description";
 
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
   margin-bottom: 8.8rem;
 
@@ -291,12 +284,13 @@ nav ul li a{
   grid-area: image;
   height: 57.5rem;
   padding-left: 8.8rem;
+  width: 80rem;
 }
 
 .section_2_description{
   grid-area: description;
   height: 57.5rem;
-  padding: 4.4rem 0 3.7rem 3.7rem;
+  padding: 4.4rem 5rem 3.7rem 3.7rem;
   background-color: var(--white);
 }
 
@@ -376,6 +370,9 @@ nav ul li a{
   padding-right: 5rem;
 
 }
+.section_3_image img{
+  width: 60rem;
+}
 
 .section_3_description{
 
@@ -431,13 +428,12 @@ nav ul li a{
 /**Here begins section 4*/
 
 .section_4{
-
-  width: 126.4rem;
   height: 11.2rem;
   padding: 3.2rem 3.7rem;
   background-color: var(--dark-sand);
   display: flex;
   margin-left: 8.8rem;
+  margin-right: 5rem;
 
 }
 
@@ -446,14 +442,12 @@ nav ul li a{
     width: fit-content;
     height: 40px;
     font-family: LustSlim;
-    font-size: 40px;
+    font-size: 35px;
     font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
     line-height: 1;
-    letter-spacing: normal;
     color: var(--white);
-    margin-right: 5rem;
+    margin-right: 3rem;
+    
 
 }
 
@@ -463,13 +457,9 @@ nav ul li a{
   height: 48px;
   font-family: Aeonik;
   font-size: 16px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.5;
-  letter-spacing: normal;
   color: var(--white);
-  margin-right: 5rem;
+  margin-right: 3rem;
 
 }
 
@@ -487,6 +477,7 @@ nav ul li a{
   display: grid;
   grid-template-areas: 
   "image description";
+  grid-template-columns: 1fr 1fr;
   padding-left: 8.8rem;
   padding-top: 8.9rem;
   padding-right: 5rem;
@@ -502,13 +493,15 @@ nav ul li a{
 .section_5_img img{
 
   height: 59.1rem;
-
+  
 }
 
 .section_5_description{
 
   grid-area: description;
   padding-left: 5rem;
+  width: 50rem;
+
 
 }
 
@@ -516,7 +509,7 @@ nav ul li a{
 
   width: 16.7rem;
   height: 2.4rem;
-  margin: 0 47.1rem 2.4rem 0;
+  margin: 0 0 2.4rem 0;
   font-family: Aeonik;
   font-size: 1.4rem;
   font-weight: 500;
@@ -531,22 +524,18 @@ nav ul li a{
 
   width: 4.4rem;
   height: 3px;
-  margin: 2.4rem 59.4rem 3.2rem 0;
+  margin: 2.4rem 0;
   background-color: var(--dark-sand);
 
 
 }
 
 .section_5_description p{
-  width: 63.8rem;
-  padding-right: 8rem;
+  width:50rem;
+  padding-right: 5rem;
   font-family: Aeonik;
   font-size: 1.6rem;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.5;
-  letter-spacing: normal;
   color: var(--charcoal-grey);
 }
 
@@ -554,7 +543,7 @@ nav ul li a{
 
   width: 13.6rem;
   height: 3.6rem;
-  margin: 6.5rem 50.2rem 0 0;
+  margin: 6.5rem 0 0 0;
   padding: 1.0rem 4.0rem;
   border: solid 2px var(--dark-sand);
   background-color: transparent;
@@ -580,7 +569,9 @@ nav ul li a{
   grid-area: image;
 }
 
-
+.section_6_img img{
+  width: 63rem;
+}
 
 .section_6_description{
 
@@ -597,10 +588,7 @@ nav ul li a{
   font-family: Aeonik;
   font-size: 1.4rem;
   font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.71;
-  letter-spacing: normal;
   color: var(--dark-sand);
 
 }
@@ -617,14 +605,11 @@ nav ul li a{
 .section_6_description p{
 
   width: 50.7rem;
-  font-family: Aeonik;
   font-size: 1.6rem;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.5;
   letter-spacing: normal;
   color: var(--charcoal-grey);
+  padding-right: 5rem;
 
 }
 
@@ -639,6 +624,7 @@ nav ul li a{
   padding-top: 8.9rem;
 
   grid-template-columns: 1fr 1fr;
+  margin-bottom: 2rem;
 }
 
 .section_7__div--1{
@@ -653,15 +639,34 @@ nav ul li a{
 
 .section_7__div--2{
   grid-area: images;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.section_7__div--2 img{
-  width: 24.3rem;
-  height: 18.1rem;
+.section_7__div--2 div{
+  width: 17rem;
+  height: 17rem;
   margin: 0 3.7rem 2.4rem 2.3rem;
-  
-  
+  background-position: center;
 }
+
+.section_7__div--2-1{
+  background-image: url(./images/Squash\ Courts\ Img.png);
+
+}
+
+.section_7__div--2-2{
+  background-image: url(./images/Second\ Lobby\ Img.png);
+}
+
+.section_7__div--2-3{
+  background-image: url(./images/Spa\ Img\ 2.png);
+}
+
+.section_7__div--2-4{
+  background-image: url(./images/Fitness\ Centre\ Img.png);
+}
+
 
 /**Here begins section 8*/
 
@@ -763,10 +768,7 @@ form span{
   font-family: Aeonik;
   font-size: 1.4rem;
   font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.71;
-  letter-spacing: normal;
   color: var(--dark-sand);
 }
 
@@ -782,9 +784,6 @@ form p{
   margin-bottom: 2rem;
   font-family: Aeonik;
   font-size: 16px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.13;
   letter-spacing: normal;
   color: var(--charcoal-grey);
@@ -795,6 +794,7 @@ form input{
   border: none;
   border-bottom: 1px solid;
   border-color: var(--dark-sand);
+  font-family: inherit;
 }
 
 form input::placeholder{
@@ -807,6 +807,7 @@ form textarea{
   border-color: var(--dark-sand);
   resize: none;
   height: 10rem;
+  font-family: inherit;
 }
 
 form textarea::placeholder{
@@ -831,13 +832,13 @@ form button{
   background-color: var(--charcoal-grey);
   display: flex;
   flex-flow: row wrap;
+  justify-content: space-between;
 }
 
 
 .footer_div-1{
   display: flex;
   flex-direction: column;
-  padding-right:56rem;
 }
 
 .footer_div-2{
