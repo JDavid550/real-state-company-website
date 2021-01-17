@@ -361,25 +361,25 @@ nav ul li a{
 
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
-  padding-bottom: 3.3rem;
+  height: fit-content;
 }
 
 .section_3_image{
 
   grid-area: image;
-  padding-right: 5rem;
+  height: 39.2rem;
 
 }
 .section_3_image img{
-  width: 60rem;
+  width: 59rem;
 }
 
 .section_3_description{
 
   grid-area: description;
-  width: 544px;
-  height: 479px;
-  padding: 0 0 33px 8.8rem;
+  width: 54.4rem;
+  height:fit-content;
+  padding: 0 0 3.3rem 8.8rem;
   background-color: var(--white);
 
 }
@@ -412,18 +412,15 @@ nav ul li a{
 .section_3 p{
 
   width: auto;
-  height: 34.3rem;
-  margin: 3.2rem 0;
+  height: fit-content;
+  margin: 3.2rem 0 0 0;
   font-family: Aeonik;
   font-size: 1.6rem;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.5;
-  letter-spacing: normal;
   color: var(--charcoal-grey);
 
 }
+
 
 /**Here begins section 4*/
 
@@ -434,6 +431,7 @@ nav ul li a{
   display: flex;
   margin-left: 8.8rem;
   margin-right: 5rem;
+  flex-wrap: wrap;
 
 }
 
@@ -467,7 +465,32 @@ nav ul li a{
 
   border: 2px white solid;
   height: 4.8rem;
-  margin-right: 5rem;
+  margin-right: 3rem;
+}
+
+.counter{
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.counter button{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.next_button, .previous_button{
+  font-size: x-large;
+  color: white;
+}
+
+.counter button:focus{
+  outline: none;
+}
+
+.counter_number{
+  margin-left: 3rem;
 }
 
 /**Here begins section 5*/
