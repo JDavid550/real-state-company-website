@@ -364,14 +364,35 @@ nav ul li a{
   height: fit-content;
 }
 
+
+
 .section_3_image{
 
   grid-area: image;
   height: 39.2rem;
-
+  display: block;
 }
+
+
+
 .section_3_image img{
   width: 59rem;
+  height: 39.2rem;
+}
+
+.item{
+  display: none;
+  width: 59rem;
+  height: 39.2rem;
+}
+
+.active{
+  display: block;
+}
+
+.active img{
+  width: 59rem;
+  height: 39.2rem;
 }
 
 .section_3_description{
