@@ -371,6 +371,7 @@ nav ul li a{
   grid-area: image;
   height: 39.2rem;
   display: block;
+  
 }
 
 
@@ -378,13 +379,16 @@ nav ul li a{
 .section_3_image img{
   width: 59rem;
   height: 39.2rem;
+
 }
 
 .item{
   display: none;
   width: 59rem;
   height: 39.2rem;
+  overflow: hidden;
 }
+
 
 .active{
   display: block;
@@ -393,6 +397,10 @@ nav ul li a{
 .active img{
   width: 59rem;
   height: 39.2rem;
+}
+
+.animate__animated.animate__fadeInUp{
+  animation-duration: 2s ease;
 }
 
 .section_3_description{
@@ -441,6 +449,8 @@ nav ul li a{
   color: var(--charcoal-grey);
 
 }
+
+
 
 
 /**Here begins section 4*/
