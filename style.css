@@ -676,7 +676,7 @@ nav ul li a{
   padding-left: 8.8rem;
   padding-right:5rem;
   padding-top: 8.9rem;
-
+  height: fit-content;
   grid-template-columns: 1fr 1fr;
   margin-bottom: 2rem;
 }
@@ -688,8 +688,11 @@ nav ul li a{
 
 .section_7__div--1 img{
   width: 60rem;
-  height: 38.6rem;
+  height: 36.5rem;
+  cursor: pointer;
 }
+
+
 
 .section_7__div--2{
   grid-area: images;
@@ -697,30 +700,84 @@ nav ul li a{
   flex-wrap: wrap;
 }
 
-.section_7__div--2 div{
+.img{
   width: 17rem;
   height: 17rem;
-  margin: 0 3.7rem 2.4rem 2.3rem;
-  background-position: center;
+  margin: 0 5rem 2rem 2rem;
+  color: var(--white);
+  position: relative;
+  
 }
 
-.section_7__div--2-1{
-  background-image: url(./images/Squash\ Courts\ Img.png);
+
+.section_7__div--2-1 .img img{
+  width: 17rem;
+  height: 17rem;
+}
+
+.overlay{
+  position: relative;
+  bottom: 5rem;
+  left: 2rem;
+  font-size: 2rem;
+  cursor: pointer;
+  
+}
+
+.section_7__div--2-1 .img::before{
+  content: "";
+  position: absolute;
+  width: 17rem;
+  height: 17rem;
+  background-color: var(--dark-sand);
+  opacity: 0.5;
+}
+
+.img:hover{
+  margin: 0rem 5rem 2rem 2rem;
+  transform: scale(1.1,1.1);
 
 }
 
-.section_7__div--2-2{
-  background-image: url(./images/Second\ Lobby\ Img.png);
+/** Este es el modulo que permite ampliar la imagen en la galería-2**/
+.img.active{
+  position: fixed;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	top: 0;
+	left: 0;
+	z-index: 2;
 }
 
-.section_7__div--2-3{
-  background-image: url(./images/Spa\ Img\ 2.png);
+.img.active img {
+	z-index: 3;
+	width: 400px;
+	height: 400px;
+	
+
 }
 
-.section_7__div--2-4{
-  background-image: url(./images/Fitness\ Centre\ Img.png);
+.img.active .overlay{
+  display: none;
 }
 
+.img.active::after{
+  position: fixed;
+	content: '';
+	width: 100vw;
+	height: 100vh;
+	top: 0;
+	left: 0;
+  background-color:var(--charcoal-grey);
+  opacity: 0.9;
+  
+}
+
+
+/****/
 
 /**Here begins section 8*/
 
